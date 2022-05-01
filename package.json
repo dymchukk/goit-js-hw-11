@@ -1,0 +1,36 @@
+{
+  "name": "goit-js-hw-11",
+  "version": "1.1.0",
+  "description": "HW-11",
+  "main": "index.js",
+  "homepage": "https://dymchukk.github.io/goit-js-hw-11",
+  "scripts": {
+    "dev": "parcel src/*.html --open",
+    "build": "parcel build src/*.html --public-url /goit-js-hw-11/",
+    "server":"json-server --watch db.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goitacademy/parcel-project-template.git"
+  },
+  "keywords": [],
+  "author": "Dymchuk Kateryna <dymchukkat@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dymchukk/goit-js-hw-11/issues"
+  },
+  "devDependencies": {
+    "json-server": "^0.17.0"
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-handlebars-precompile": "^1.0.2",
+    "parcel-plugin-nuke-dist": "^1.0.1",
+    "posthtml-include": "^1.6.2",
+    "sass": "^1.32.8"
+  },
+  "dependencies": {
+    "@vimeo/player": "^2.16.2",
+    "lodash.throttle": "^4.1.1",
+    "simplelightbox": "^2.10.2"
+  }
+}
+
