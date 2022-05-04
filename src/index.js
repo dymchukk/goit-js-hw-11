@@ -85,3 +85,8 @@ function renderGallery(data) {
 
   observer.observe(refs.gallery.lastElementChild);
 }
+
+
+  
+
+
